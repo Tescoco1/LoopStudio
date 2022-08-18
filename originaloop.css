@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: 1px solid black;
+    height: 650px;
+    background-image: url('images/desktop/image-hero.jpg');
+}
+
+.logo-nav{
+    height: 20%;
+    display: flex;
+    border: 1px solid orange;
+}
+.logo{
+    height:40%;
+    width: 25%;
+    background-image: url('images/logo.svg');
+    background-repeat: no-repeat;
+    margin-right: 50px;
+    margin-left: 165px;
+    margin-top: 3%;
+    padding: 3px;
+    align-items: center;
+}
+.nav{
+    height: 100%;
+    width: 45%;
+    margin-left: auto;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+.nav li{
+    color: antiquewhite;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: auto;
+}
+.text{
+    border:1px solid white;
+    height:45%;
+    width:44%;
+    margin-top: 85px;
+    margin-bottom:auto;
+    color: white;
+    font-size: 75px;
+    font: weight -50px;
+    margin-left: 175px;
+    padding-left: 25px;
+  
+}
+.grid{
+    height: 750px;
+    background-color: white;
+    display: inline-flex;
+    width: 100%;
+}
+.interactive{
+    height: 60%;
+    display: inline-flex;
+    width: 575px;
+    padding-top: 70px;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+.interactive img{
+    width: 750px;
+    height: 500px;
+}
+.text2{
+    width: 2600px;
+    height:50%;
+    background-color: white;
+    margin-bottom: 70px;
+    margin-right: 70px;
+    margin-top: 247px;
+    text-align: left;
+    padding-top: 150px;
+    padding-right: 180px;
+    padding-left: 100px;
+    font-size: medium;
+}
+.heading-view{
+    height: 100px;
+    display: flex;
+}
+
+.heading{
+    height: 100%;
+    width: 95%;
+    padding-left: 150px;
+}
+.heading h1{
+    color: black;
+    font-size: 43px;
+    padding-left: 55px;
+    font-weight: lighter;
+}
+.view{
+    border: 1px solid grey;
+    height: 50%;
+    width: 25%;
+    margin-left: 40%;
+    margin-right: 13%;
+}
+.view h3{
+    font-size: 120%;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 10px;
+}
+.tough-row{
+    /*border: 1px solid brown;*/
+    height: 500px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.column{
+   /* border: 1px solid blue;*/
+    height: 100%;
+    width: 24.7%;
+    display: inline-flex;
+    justify-content: space-evenly;
+/* padding-right: 300px;*/
+    /*padding-left: 1px;*/
+}
+
+.comment{
+    margin-right: auto;
+    margin-top: auto;
+    margin-left: auto;
+    color: blueviolet;
+    padding-left: auto;
+}
+
+.column2{
+    /*border: 1px solid blue;*/
+    height: 100%;
+    width: 24.7%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-top: auto;
+}
+.bottom-left{
+    height: 8%;
+    width: 90px;
+    position: absolute;
+    text-align: left;
+    color: white;
+    bottom: -1130px;
+    left: 200px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.bottom-left2{
+    height: 8%;
+    width: 90px;
+    position: absolute;
+    text-align: left;
+    color: white;
+    bottom: -1130px;
+    left: 475px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.bottom-left3{
+    height: 8%;
+    width: 200px;
+    position: absolute;
+    text-align: left;
+    color: white;
+    bottom: -1130px;
+    left: 775px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.bottom-left4{
+    height: 8%;
+    width: 90px;
+    position: absolute;
+    text-align: left;
+    color: white;
+    bottom: -1130px;
+    left: 1050px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.tough-row2{
+    /*border: 1px solid indigo;*/
+    margin-top: 30px;
+    height: 500px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.further-bottom{
+    height: 8%;
+    width: 110px;
+    position: absolute;
+    text-align: left;
+    color: white;
+    bottom: -1660px;
+    left: 200px;
+    font-size: large;
+    font-weight: lighter;
+}
+.further-bottom2{
+    height: 8%;
+    width: 110px;
+    position: absolute;
+    text-align: left;
+    color: white;
+    bottom: -1660px;
+    left: 490px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.further-bottom3{
+    height: 8%;
+    width: 110px;
+    position: absolute;
+    text-align: left;
+    color: white;
+    bottom: -1660px;
+    left: 780px;
+    font-size: xx-large;
+    font-weight: 100px;
+
+}
+.further-bottom4{
+    height: 8%;
+    width: 110px;
+    position: absolute;
+    text-align: left;
+    color: white;
+    bottom: -1660px;
+    left: 1070px;
+    font-size: x-large;
+    font-weight: lighter;
+}

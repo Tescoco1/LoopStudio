@@ -1,0 +1,6 @@
+
+header{
+    border: 1px solid blue;
+    height: 800px;
+    background-color: brown;
+}
